@@ -40,7 +40,7 @@ jobs:
         run: npx bohr deploy
         env:
           DEPLOY_PATH: './'
-          PUBLIC_PATH: './public'
+          PUBLIC_PATH: './'
           SITE_NAME: 'portfolio-template.bohr.io'
           BRANCH: 'main'
           OWNER: 'bohr-io'
