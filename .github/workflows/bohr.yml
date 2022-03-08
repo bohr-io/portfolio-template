@@ -41,8 +41,8 @@ jobs:
         env:
           DEPLOY_PATH: './'
           PUBLIC_PATH: './public'
-          SITE_NAME: 'app-template.bohr.io'
+          SITE_NAME: 'portfolio-template.bohr.io'
           BRANCH: 'main'
           OWNER: 'bohr-io'
-          REPOSITORY: 'app-template'
+          REPOSITORY: 'portfolio-template'
           BOHR_TOKEN: ${{ secrets.BOHR_TOKEN }}
