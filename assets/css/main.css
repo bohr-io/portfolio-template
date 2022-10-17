@@ -45,7 +45,7 @@ body {
 /* hover effect based on https://codepen.io/grohit/pen/jObGzdG */
 .header__name::before,
 .nav__link::before {
-  content: attr(data-item);
+  content: attr(data-fill-animate);
   transition: all 0.5s ease-in-out;
   color: #8254ff;
   position: absolute;
