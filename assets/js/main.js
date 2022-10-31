@@ -7,7 +7,7 @@ let currentProjectIndex = 0;
 function renderProjectDetails(i) {
   const { image, text, url } = projects[i];
 
-  $('#project-detail-image').attr('src', image);
+  $('#project-detail-image').attr('src', `/assets/img/${image}`);
   $('#project-text').text(text);
   $('#project-link').attr('href', url)
 
@@ -41,7 +41,7 @@ projects.forEach((project, i) => {
     role: 'button',
     tabIndex: '0',
     class: 'project__cimage',
-    css: { backgroundImage: `url(${project.image})` },
+    css: { backgroundImage: `url(/assets/img/${project.image})` },
   })
     .on('mousedown touchstart', () => {
       clickStart = Date.now();
